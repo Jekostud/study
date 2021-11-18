@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between; 
+    height: 70px;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(190, 187, 187);
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.main {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(161, 153, 153);
+}
+.piz {
+    text-transform: uppercase;
+    display: flex;
+    font-size: 100px;
+    padding-left: 300px;
+    color: rgb(207, 82, 82);
+}
+em {
+    text-decoration: underline;
+}
+.bord {
+    border-bottom: 2px solid
+
+}
