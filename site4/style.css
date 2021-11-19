@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between; 
+    height: 70px;
+}
+ 
+.pages {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 300px;
+    padding-right: 300px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(190, 187, 187);
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.bg {
+    background-image: url(../../LESSON3/site4/images/bgc.jpg);
+    background-position: 50% 50%;
+    min-height: 500px;
+    background-size: cover;
+}
+.layout {
+    flex-direction: row;
+    display: flex;
+
+}
+.bman {
+    min-height: 1000px;
+    background-image: url(../../LESSON3/site4/images/man.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    max-width: 50%;
+    flex: 4 0 50%;
+}
+.textbox {
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.botton {
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    border-style: none;
+    margin: 45px auto 0 0;
+    padding: 10px 52px 10px 51px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.botton:hover {
+    cursor: pointer;
+    background-color:#3870bb ;
+}
+.ftext {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+}
+.stext {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    color: #3870bb !important;
+}
+.ttext{
+    font-size: 1.125rem;
+    margin: 20px auto 0 0;
+
+}
+.foot {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.freepik {
+    color: #111111 !important;
+    border-style: none none solid;
+    padding: 0;
+    border-width: 1px;
+}
