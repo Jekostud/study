@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-    max-width: 1600px;
 }
 
 a {
@@ -8,9 +7,8 @@ a {
 }
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
-    width:1600px;
 }
 .cont {
     display: flex;
@@ -33,7 +31,6 @@ a {
 }
 .lemon {
     display: flex;
-    width: 1600px;
     height: 842px;
 }
 
@@ -62,6 +59,5 @@ a {
     justify-content: center;
     font-size: 30px;
     background-color: rgb(0, 0, 0);
-    width: 1600px;
     color: #ffffff;
 }

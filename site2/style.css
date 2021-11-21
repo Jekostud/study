@@ -10,7 +10,6 @@ body {
 }
 .main {
     background-color: rgb(250, 169, 18);
-    width: 1920px;
     height: 835px;
     margin: 0;
     display: flex;
@@ -19,7 +18,7 @@ body {
     padding-top: 0px;
     position: relative;
     top: 200px;
-    left: -900px;
+    left: -1020px;
 
 }
 .box {

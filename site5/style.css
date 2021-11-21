@@ -27,7 +27,7 @@ body {
     background-position: 50% 50%;
     min-height: 500px;
     background-size: cover;
-    background-image: url(../../LESSON3/site5/images/pizza.jpg);
+    background-image: url(../site5/images/pizza.jpg);
 }
 .layout {
     flex-direction: row;

@@ -24,7 +24,7 @@ body {
     padding-top: 20px;
 }
 .bg {
-    background-image: url(../../LESSON3/site4/images/bgc.jpg);
+    background-image: url(../site4/images/bgc.jpg);
     background-position: 50% 50%;
     min-height: 500px;
     background-size: cover;
@@ -35,12 +35,13 @@ body {
 
 }
 .bman {
-    min-height: 1000px;
-    background-image: url(../../LESSON3/site4/images/man.jpg);
+    min-height: 680px;
+    background-image: url(../site4/images/man.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     max-width: 50%;
     flex: 4 0 50%;
+    background-size: 100%;
 }
 .textbox {
     text-align: left;
