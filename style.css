@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family:'Times New Roman', Times, serif;
 }
+
 
 .col-1 {
     border-radius: 20px;
@@ -29,14 +30,14 @@ html {
 }
 
 .nav {
-    background-color: rgb(128, 240, 221);
+    background-color: var(--right-column-color);
     border-radius: 20px;
     padding: 10px;
 }
 
 .materials {
     border-radius: 20px;
-    background-color: rgb(128, 240, 221);
+    background-color: var(--right-column-color);
     padding: 10px;
     margin-top: 10px;
 }
@@ -72,4 +73,8 @@ img {
 img:hover {
     filter: grayscale(99%);
     cursor: pointer;
+}
+
+:root {
+    --right-column-color: rgb(128, 240, 221);
 }
