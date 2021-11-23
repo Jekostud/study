@@ -3,9 +3,8 @@
 }
 
 body {
-  font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .col-1 {
     border-radius: 20px;
@@ -77,4 +76,24 @@ img:hover {
 
 :root {
     --right-column-color: rgb(128, 240, 221);
+}
+
+@media print {
+    aside,
+    footer,
+    header {
+        display: none;
+    }
+    @page {
+        margin: 2cm;
+    }
+    [class="col-1"] {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    img {
+        outline: none;
+    }
 }
