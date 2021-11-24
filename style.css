@@ -149,7 +149,7 @@ ul {
 }
 
 
-
+/* Old media for mobile
 /* @media only screen and (max-width:768px) {
     [class="col-1"] {
         width: 100%;
