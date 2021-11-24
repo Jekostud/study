@@ -15,23 +15,23 @@ body {
     border-color: rgb(128, 240, 221);
     font-size: 18px;
     padding: 15px;
+    margin-bottom: 10px;
 }
 
 .row {
     max-width: 1200px;
-    height: 620px;
 }
 
 .col-2 {
     width: 23%;
     float: right;
-    max-height: 800px;
 }
 
 .nav {
     background-color: var(--right-column-color);
     border-radius: 20px;
     padding: 10px;
+    clear: both;
 }
 
 .materials {
@@ -77,6 +77,9 @@ img:hover {
 :root {
     --right-column-color: rgb(128, 240, 221);
 }
+ul {
+    padding: 0px;
+}
 
 @media print {
 
@@ -102,7 +105,52 @@ img:hover {
     }
 }
 
-@media only screen and (max-width:768px) {
+
+
+/* Mobile first */
+
+[class="col-1"] {
+    width: 100%;
+}
+[class="right menu col-2"] {
+    width: auto;
+    float: none;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+.col-1 {
+    width: 70%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.col-2 {
+    width: 23%;
+    float: right;
+    max-height: 800px;
+    text-align: left;
+}
+.footer {
+    clear: both;
+}
+li {
+    list-style-type: disc;
+}
+ul {
+    padding-left: 40px;
+}
+}
+
+
+
+/* @media only screen and (max-width:768px) {
     [class="col-1"] {
         width: 100%;
         margin-bottom: 50px;
@@ -122,4 +170,5 @@ img:hover {
         list-style-type: none;
     }
 
-}
+} */
+
