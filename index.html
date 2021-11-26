@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./javascrupt.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>MATH</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <section class="firstTable">
+      <div class="wrapperSector">
+
+        <h2>Периметр квадрата</h2>
+        <form name="form1">
+          Cторона: <input type="text" size=2em name="num1">
+          <hr>
+          Периметр: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="perSquare()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+      <div class="wrapperSector">
+        <h2>Периметр равностороннего треугольника</h2>
+        <form name="form2">
+          Cторона: <input type="text" size=2em name="num2">
+          <hr>
+          Периметр: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="perTringle()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+      <div class="wrapperSector">
+        <h2>Периметр куба</h2>
+        <form name="form3">
+          Cторона: <input type="text" size=2em name="num3">
+          <hr>
+          Периметр: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="perCube()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+    </section>
+
+    <section class="secondTable">
+      <div class="wrapperSectorTwo">
+        <h2>Площадь квадрата</h2>
+        <form name="form4">
+          Cторона: <input type="text" size=2em name="num4">
+          <hr>
+          Площадь: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="squareSquare()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+      <div class="wrapperSectorTwo">
+        <h2>Площадь равностороннего треугольника</h2>
+        <form name="form5">
+          Cторона: <input type="text" size=2em name="num5">
+          <hr>
+          Площадь: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="squareTringle()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+      <div class="wrapperSectorTwo">
+        <h2>Площадь куба</h2>
+        <form name="form6">
+          Cторона: <input type="text" size=2em name="num6">
+          <hr>
+          Площадь: <input type="text" size=2em name="res">
+          <hr>
+          <input type="button" name="button" value=Найти onclick="squareCube()">
+          <input type="reset" value=Сброс>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
+
+
+<!--     
+  PERIMETER
+    
+    SQUARE     P=4*a (a=length one side)
+    TRIANGLE   P=3*a (a= length one side)
+    CUBE       P=12*a (a= length one side )
+    
+    
+    SQUARE
+    
+    SQUARE      PL=a*a=a2
+    TRIANGLE    PL=(a*a)*(a*1.70)/4
+    CUBE        PL=6*a2 -->
+
+
+
+
+<!-- Зерна и шахматная доска 
+      ВАРИАНТ 1 - просто возвести в 64 степень 
+    Math.pow(2, 64) 
+    18446744073709552000
+
+      Вариант 2  множим 63 раза подряд (Ужасный код который не стоит никому показывать)
+function sum(a, b) {
+ return a*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b*b;
+}
+let result = sum(2,2);
+console.log (result);
+VM379:6 18446744073709552000
+ -->
+
+<!-- 
+    Боле менее красивый ответ который наглядно показывает как происходит пошагово увеличение. БОлее того цикл сразу стартует с единицы в случает от Math.pow()
+ где нужно стартовать с второй клетки что бы произошло возведение в сепень, и после уже отнять единицу от резульятата (то есть первый квадрат на котором должно
+  было находиться 1 зерно)
+
+   
+   var startNumb = 1;                            Стартовое число 1, начинаем с одного зерна
+   var multiplier = 2;                           Множим на 2, то етсь должно быть в 2 раза больше последующее число
+   var quantity = 64;                            Колличество клеток на шахматной доске
+   for (var i = 1; i <= quantity; i++) {        (начало; условие; шаг) начинаем с 1 до 64 производить умножение, до тех пор пока не произойдет 64 умножение, мы будем идти по циклу 1-2-3-4-...64.
+     startNumb *= multiplier;                  присвоение с умножением и повторяем заново пока i не станет равно количеству (64 квадрата)
+     console.log(startNumb);                      Выводим в консоль
+   1
+VM211:7 2
+VM211:7 4
+VM211:7 8
+VM211:7 16
+VM211:7 32
+VM211:7 64
+VM211:7 128
+VM211:7 256
+VM211:7 512
+VM211:7 1024
+VM211:7 2048
+VM211:7 4096
+VM211:7 8192
+VM211:7 16384
+VM211:7 32768
+VM211:7 65536
+VM211:7 131072
+VM211:7 262144
+VM211:7 524288
+VM211:7 1048576
+VM211:7 2097152
+VM211:7 4194304
+VM211:7 8388608
+VM211:7 16777216
+VM211:7 33554432
+VM211:7 67108864
+VM211:7 134217728
+VM211:7 268435456
+VM211:7 536870912
+VM211:7 1073741824
+VM211:7 2147483648
+VM211:7 4294967296
+VM211:7 8589934592
+VM211:7 17179869184
+VM211:7 34359738368
+VM211:7 68719476736
+VM211:7 137438953472
+VM211:7 274877906944
+VM211:7 549755813888
+VM211:7 1099511627776
+VM211:7 2199023255552
+VM211:7 4398046511104
+VM211:7 8796093022208
+VM211:7 17592186044416
+VM211:7 35184372088832
+VM211:7 70368744177664
+VM211:7 140737488355328
+VM211:7 281474976710656
+VM211:7 562949953421312
+VM211:7 1125899906842624
+VM211:7 2251799813685248
+VM211:7 4503599627370496
+VM211:7 9007199254740992
+VM211:7 18014398509481984
+VM211:7 36028797018963970
+VM211:7 72057594037927940
+VM211:7 144115188075855870
+VM211:7 288230376151711740
+VM211:7 576460752303423500
+VM211:7 1152921504606847000
+VM211:7 2305843009213694000
+VM211:7 4611686018427388000
+VM211:7 9223372036854776000
+VM211:7 18446744073709552000
+
+
+Вариант 4
+конечно же пойти на разговор, проверить зачем данное вычесление и нужно ли оно вообще,
+есть ли границы, что бы понимать можно ли вообще и нужно ли вообще все это делать
+Если задача нерешаема, дать понять что это так и предложить варианты приблеженные к задаче исходя 
+из поставленных целей подкрепленных реальностью-->

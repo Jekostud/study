@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapperSector {
+    width: 15rem;
+    height: 15rem;
+    border: solid 0.3rem rgb(65, 137, 204);
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+.wrapper {
+    text-align: center;
+}
+.wrapperSectorTwo {
+    width: 15rem;
+    height: 15rem;
+    border: solid 0.3rem rgb(65, 137, 204);
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+.firstTable {
+    float: right;
+    width: 40%;
+}
+.secondTable {
+    float: right;
+    width: 40%
+}
+
+@media only screen and (max-width: 768px) {
+
+.firstTable {
+    float: none;
+    width: 100%;
+
+}
+.secondTable {
+    float: none;
+    width: 100%
+}
+}
