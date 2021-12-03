@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) {
+    .header {
+        width: 470px;
+    }
+    .textOne {
+
+        margin-left: 100px;
+    }
+    .basePalette {
+        background-color: #34421e;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .mainImage {
+        width: 316px;
+        height: 574px;
+        margin-top: 45px;
+        margin-right: auto;
+        margin-left: 24px;
+        object-position: 9.45% 100%;
+        object-fit: cover;
+    }
+    .mainBg {
+        min-height: 1100px;
+        width: calc(((100% - 340px) / 2) + 268px);
+        position: relative;
+        margin-top: -650px;
+        margin-left: 130px;
+    }
+    .textMain {
+        margin-left: -260px;
+        font-size: 4rem;
+    }
+    .smallText {
+        margin-left: 250px;
+        font-size: 15px;
+        width: 200px;
+        height: 200px;
+        margin-top: -80px;
+
+    }
+    .container {
+        width: 170px;
+    }
+    .containerImages {
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 250px;
+        height: 740px;
+    }
+    .rowImg {
+        display: block;
+    }
+    .smallImages {
+    min-height: 224px;
+    max-width: 100%;
+    }
+    .smallImages1 {
+        min-height: 224px;
+        max-width: 100%;
+    }
+    .smallImages2 {
+        min-height: 224px;
+        max-width: 100%;
+    }
+    .fixBlock {
+        height: 50px;
+    }
+    .fix {
+        margin-top: -10px;
+    }
+
+}

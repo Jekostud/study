@@ -1,0 +1,19 @@
+dt {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nextPage {
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(33, 57, 189);
+    border: none;
+
+}
