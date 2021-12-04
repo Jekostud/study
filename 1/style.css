@@ -1,0 +1,111 @@
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+}
+.logo {
+    max-width: 64px;
+    max-height: 64px;
+}
+li {
+    padding-right: 30px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mainText {
+    float:right;
+    display: flex;
+    width: 399px;
+    height: 360px;
+    background-color: #E5E5E5;
+    padding: 20px 60px;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.textOne {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: 'Roboto Slab', serif;
+}
+.textTwo {
+    margin: 20px 0 0;
+}
+.bord {
+    border-width: 2px;
+    border-style: none none solid;
+    padding: 0;
+}
+.btn {
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: none;
+    margin: 37px auto 0 0;
+    background-color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+}
+.litImg {
+    float: right;
+    min-height: 250px;
+    width: 250px;
+    background-image: url(./images/dftg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.wrapper {
+    float: left;
+    width: 49%
+}
+.wrapperTwo {
+    float: right;
+    width:49%;
+}
+.litImgTwo {
+    min-height: 250px;
+    width: 250px;
+    background-image: url(./images/cropped-view-of-hands-typing-on-laptop_1262-3196.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.bigImg {
+    width: 560px;
+    height: 400px;
+    background-image: url(./images/ad.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.footer {
+    clear: both;
+    background-color: rgb(195, 198, 201);
+    margin: 0 auto;
+    width: 1140px;
+}
+.btn:hover {
+    background-color: #474545;;
+}
