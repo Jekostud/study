@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exerciseOne {
+    width: 15rem;
+    height: 17rem;
+    border: solid 0.3rem rgb(65, 137, 204);
+    margin: 0.5em;
+    border-radius: 2rem;
+    text-align: center;
+}
