@@ -109,3 +109,63 @@ a {
 .btn:hover {
     background-color: #474545;;
 }
+
+.navCollapse {
+    display: none;
+}
+
+@media screen and (max-width: 745px) {
+    ul {
+        display: none;
+    }
+    .head {
+        width: 575px;
+        margin: 0;
+    }
+    nav {
+        display: none;
+    }
+    .navCollapse {
+        display: inherit;
+        margin-right: 25px;
+    }
+    .container {
+        width: 575px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper {
+        float: none;;
+        width: 100%;
+        margin: 30px 30px 15px;
+    }
+    .wrapperTwo {
+        float: none;
+        width: 100%;
+        margin: 0px 30px 30px;
+    }
+    .footer {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+
+    }
+    .litImg {
+        width: 100%;
+        height: 360px;
+    }
+    .litImgTwo {
+        width: 100%;
+        height: 360px;
+    }
+    .bigImg {
+        width: 100%;
+        height: 360px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+
+}

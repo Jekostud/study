@@ -120,3 +120,12 @@ p {
     width: 190px;
     background-color: #A8D08D;
 }
+.footer {
+    background-color: slategrey;
+    text-align: center;
+    width: 700px;
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
+}
