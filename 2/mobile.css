@@ -52,8 +52,8 @@
         display: block;
     }
     .smallImages {
-    min-height: 224px;
-    max-width: 100%;
+        min-height: 224px;
+        max-width: 100%;
     }
     .smallImages1 {
         min-height: 224px;
@@ -64,7 +64,7 @@
         max-width: 100%;
     }
     .fixBlock {
-        height: 50px;
+        height: 60px;
     }
     .fix {
         margin-top: -10px;
