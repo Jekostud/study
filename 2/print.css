@@ -1,0 +1,31 @@
+@media print {
+    header {
+        display: none;
+    }
+    .mainBg {
+        margin-left: 0px;
+        margin-bottom: 500px;
+    }
+    .smallText {
+        margin: 0px;
+        margin-left: 300px;
+
+    }
+    .containerImages {
+        display: none;
+
+    }
+    .container {
+        margin-left: 300px;
+    }
+    .fixBlock {
+        display: none;
+    }
+    .mainImage {
+        box-shadow: none;
+    }
+    .smallText {
+        margin-top: 10px;
+    }
+
+}
