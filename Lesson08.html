@@ -15,63 +15,100 @@
     <div class="exerciseOne">
         <h2>Программа для вычисления площади круга через диаметр.</h2>
         <form name="form1">
-            Диаметр: <input type="text" name="num1">
+            <label>Диаметр: <input type="text" name="num1"></label>
             <hr>
-            Площадь: <input type="text" name="res">
+            <label>Площадь: <input type="text" name="res"></label>
             <hr>
-            <input type="button" name="button" value= "Search" onclick="circSquare()">
-            <input type="reset" value= "reset">
-          </form>
+            <input type="button" name="button" value="Search" onclick="circSquare()">
+            <input type="reset" value="reset">
+        </form>
     </div>
 
     <div class="exerciseOne">
         <h2>Программа поиска длины окружности через диаметр.</h2>
         <form name="form2">
-            Диаметр: <input type="text" name="num2">
+            <label> Диаметр: <input type="text" name="num2"></label>
             <hr>
-            Площадь: <input type="text" name="res">
+            <label> Площадь: <input type="text" name="res"></label>
             <hr>
-            <input type="button" name="button" value= "Search" onclick="circumference()">
-            <input type="reset" value= "reset">
-          </form>
+            <input type="button" name="button" value="Search" onclick="circumference()">
+            <input type="reset" value="reset">
+        </form>
     </div>
 
     <div class="exerciseOne">
         <h2>Формула вычисления стоимости Евро.</h2>
         <form name="form3">
-            USD :<br> <input type="text" name="num3">
+            <label> USD :<br> <input type="text" name="num3"></label>
             <hr>
-            EUR :<br> <input type="text" name="res">
+            <label> EUR :<br> <input type="text" name="res"></label>
             <hr>
-            <input type="button" name="button" value= "Search" onclick="eurUsd()">
-            <input type="reset" value= "reset">
-          </form>
+            <input type="button" name="button" value="Search" onclick="eurUsd()">
+            <input type="reset" value="reset">
+        </form>
     </div>
     <div class="exerciseOne">
         <h2>Соотношение</h2>
         <form name="form4">
-            Площадь Беларуси:<br> <input type="text" name="num1" placeholder="207 600">
+            <label> Площадь Беларуси:<br> <input type="text" name="num1" placeholder="207 600"></label>
             <hr>
-            Площадь Украины:<br> <input type="text" name="num2" placeholder="603 628">
+            <label> Площадь Украины:<br> <input type="text" name="num2" placeholder="603 628"></label>
             <hr>
-            Соотношение:<br> <input type="text" name="res">
+            <label>Соотношение:<br> <input type="text" name="res"></label>
             <hr>
-            <input type="button" name="button" value= "Search" onclick="blrUkr()">
-            <input type="reset" value= "reset">
-          </form>
+            <input type="button" name="button" value="Search" onclick="blrUkr()">
+            <input type="reset" value="reset">
+        </form>
     </div>
     <div class="exerciseOne">
-        <h2>Соотношение</h2>
+        <h2>Больше</h2>
         <form name="form5">
-            Площадь Москвы:<br> <input type="text" name="num1" placeholder="2511">
+            <label>Площадь Москвы:<br> <input type="text" name="num1" placeholder="2511"></label>
             <hr>
-            Площадь Берлина:<br> <input type="text" name="num2" placeholder="891.80">
+            <label>Площадь Берлина:<br> <input type="text" name="num2" placeholder="891.80"></label>
             <hr>
-            Больше в:<br> <input type="text" name="res"> раз
+            <label>Больше в:<br> <input type="text" name="res"> раз</label>
             <hr>
-            <input type="button" name="button" value= "Search" onclick="mowBer()">
-            <input type="reset" value= "reset">
-          </form>
+            <input type="button" name="button" value="Search" onclick="mowBer()">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <div class="exerciseOne">
+        <h2>Сколько лет?</h2>
+        <form name="form6">
+            <label>Сколько вам лет?<br> <input type="text" name="num1" placeholder="18?"></label>
+            <input type="button" name="button" value="Search" onclick="old()">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <div class="exerciseOne">
+        <h2>Сезон года</h2>
+        <form name="form7">
+            <label>Какой месяц определяем?<br> <input type="text" name="num1" placeholder="3"></label>
+            <input type="button" name="button" value="Search" onclick="season()">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <div class="exerciseOne">
+        <h2>Выбери таблетку</h2>
+        <form name="form8">
+            <br>
+            <input type="button" name="button" value="Красная" onclick="matrixRed()">
+            <input type="button" name="button" value="Синяя" onclick="matrixBlue()">
+        </form>
+    </div>
+    <div class="exerciseOne">
+        <h4>Банк "DevBank" 3.5% годовых</h4>
+        <form name="form9">
+            <label>Сколько вкладываем?<br> <input type="text" name="num1"></label>
+            <hr>
+            <label>на сколько лет?<br> <input type="text" name="num2"></label>
+            <hr>
+            <label>В итоге получаем<br> <input type="text" name="res"></label>
+            <hr>
+            <input type="button" name="button" value="Search" onclick="bank()">
+            <input type="reset" value="reset">
+        </form>
     </div>
 
 </body>
