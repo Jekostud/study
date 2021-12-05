@@ -4,7 +4,7 @@
     }
     .mainBg {
         margin-left: 0px;
-        margin-bottom: 600px;
+        margin-bottom: 500px;
     }
     .smallText {
         margin: 0px;
@@ -24,5 +24,7 @@
     .mainImage {
         box-shadow: none;
     }
-
+    .smallText {
+        margin-top: 10px;
+    }
 }
