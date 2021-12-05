@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+div {
+    border: black solid 1px;
+}
+p {
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 700;
+}
+.tableOne {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.one {
+    width: 700px;
+    height: 100px;
+    justify-content: center;
+    background-color: #4672C4
+
+}
+.tableTwoWrap {
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+
+}
+.tableTwo {
+    width: 100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7CBAC
+
+}
+.tableThree {
+    background-color: #CB463F;
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+}
+.threeWrap {
+    display: flex;
+    flex-direction: column;
+}
+.tableThreeSecond {
+    background-color: #E2EFD9;
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tableFive {
+    width: 100px;
+    height: 400px;
+    display: flex;
+    background-color: #F7CBAC;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.tableSix {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.six {
+    width: 700px;
+    height: 100px;
+    justify-content: center;
+    background-color: #BF9000;
+}
+.sevenEi {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 50px;
+}
+.sevenEight {
+    height: 100px;
+    width: 315px;
+    background-color: #7EFFFF
+}
+
+.nineTwelve {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 50px;
+}
+.nine {
+    height: 100px;
+    width: 125px;
+    background-color: rgb(254, 229, 153);
+}
+.thirteenFifteen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 50px;
+}
+.threeFive {
+    height: 100px;
+    width: 190px;
+    background-color: #A8D08D;
+}
+.footer {
+    background-color: slategrey;
+    text-align: center;
+    width: 700px;
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
+}
