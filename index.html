@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Lesson10</title>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <section class="main">
+            <h1 class="signUp">Sign Up</h1>
+            <p class="please">Please fill this form to sign up.</p>
+            <form name="form">
+                <br>
+                <input type="text" name="name" placeholder="Name" class="inputName">
+                <br>
+                <input type="email" placeholder="Email" class="inputEmail">
+                <br>
+                <textarea rows="6" cols="27" name="text" class="inputText" placeholder="Message"></textarea>
+                <br>
+                <input type="checkbox" name="rules" id="accept" value="rules" class="inputText">
+                <label for="accept"> I accept the <strong>Terms of Use</strong> & <strong>Privacy
+                        Policy</strong></label>
+                <div class="button">
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+
+            </form>
+        </section>
+    </div>
+
 </body>
+
 </html>

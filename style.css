@@ -1,0 +1,72 @@
+body {
+    background-color: #CCEDE4;
+}
+.wrapper {
+    width: 400px;
+    height: 580px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-width: 5px;
+    border-style: solid none none;
+    border-color: #153624;
+}
+.main {
+    width: 320px;
+    height: 540px;
+    margin: 0 auto;
+}
+.signUp {
+    font-size: 30px;
+}
+.please {
+    color: #A7A6A7;
+}
+.inputName {
+    border: none;
+    background-color:#EBEBEB;
+    height: 35px;
+    width: 315px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.inputEmail {
+    border: none;
+    background-color:#EBEBEB;
+    height: 48px;
+    width: 315px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+::placeholder {
+
+    font-size: 15px;
+}
+
+.inputText {
+    border: none;
+    background-color:#EBEBEB;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+form {
+    color: #7B7B7B;
+}
+.btn {
+    width: 300px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#153624;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.button {
+    text-align: center; 
+}
+:hover.btn {
+    background-color: rgb(68, 182, 77)
+}
