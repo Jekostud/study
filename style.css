@@ -70,3 +70,7 @@ form {
 :hover.btn {
     background-color: rgb(68, 182, 77)
 }
+textarea:focus, input:focus{
+    outline: none;
+    box-shadow: black;
+}
