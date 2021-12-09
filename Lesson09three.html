@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleThree.css">
+
+
+    <title>Lesson09Three</title>
+</head>
+
+<body>
+    <header>
+        <h1>ЗАПИСЬ НА КУРСЫ ПРОГРАММИРОВАНИЯ</h1>
+    </header>
+    <hr>
+    <form name="form1" class="threeLesForm">
+        <label for="r1">Имя:</label><br>
+        <input type="text" name="name" id="r1" placeholder="Андрей">
+        <p class="radio">
+            <input type="radio" name="prog" id="java" value="prog" checked>
+            <label for="java"> Java</label>
+
+            <input type="radio" name="prog" id="cSharp" value="prog">
+            <label for="cSharp"> C++</label>
+
+            <input type="radio" name="prog" id="python" value="prog">
+            <label for="python"> Python</label>
+
+            <input type="radio" name="prog" id="php" value="prog">
+            <label for="php"> PHP</label>
+
+            <input type="radio" name="prog" id="js" value="prog">
+            <label for="js"> JavaScript</label>
+        </p>
+        <p></p>
+        <label for="expierence">Дополнительная информация:</label><br>
+        <textarea rows="5" cols="25" name="text" id="expierence" placeholder="Есть опыт программирования на Java"></textarea>
+        <p></p>
+        <label for="secretWord">Секретное слово:</label><br>
+        <input type="Password" name="password" id="secretWord" placeholder="********">
+        <p class="radio">
+            <input type="checkbox" name="rules" id="rulesAgree" value="rules">
+            <label for="rulesAgree"> С правилами ознакомился и согласен</label>
+        </p>
+        <p class="checkRules">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить" style="width: 84px;">
+        </p>
+    </form>
+    <hr>
+    <footer>
+        <p>Made by andron13</p>
+    </footer>
+
+</body>
+
+</html>
+
+<!-- Если радиокнопка служит для выбора не одного из всех вариантов, а напрмиер несколько, 
+    то name этих радиоконопок должен быть отличным друг от друга -->

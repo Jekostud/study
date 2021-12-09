@@ -1,0 +1,38 @@
+.placeholder {
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    border: 1px solid red;
+    text-align:left;
+    padding-left: 25px;
+}
+input {
+    width: 450px;
+    font-size: 20px;
+    border-color:#3682B6;
+}
+.btn {
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+    background-color: #34304F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.textarea {
+    margin: 0px;
+    width: 453px;
+    height: 50px;
+    border-color:#3682B6;
+}
+.placeForm {
+    display: flex;  
+    flex-direction: column;
+}
+.threeLesForm {
+    display: flex;
+    flex-direction: column;
+}
