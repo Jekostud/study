@@ -1,0 +1,12 @@
+.threeLesForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.radio {
+    flex-direction: row;
+}
+.checkRules {
+    flex-direction: row;
+    width: 200px;
+}

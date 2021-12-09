@@ -28,3 +28,11 @@ input {
     height: 50px;
     border-color:#3682B6;
 }
+.placeForm {
+    display: flex;  
+    flex-direction: column;
+}
+.threeLesForm {
+    display: flex;
+    flex-direction: column;
+}
