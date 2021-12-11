@@ -1,0 +1,71 @@
+body {
+    background-color: #E5E5E5;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.mainWord {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.sampleText {
+    margin: 10px auto;
+}
+.form {
+    margin:40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: 835px;
+
+}
+input {
+    display: block;
+    padding: 10px 0px;
+    width: 90%;
+    border: none;
+
+}
+.innerInput{
+    margin-bottom: 30px;
+    width:33%
+}
+.innerText {
+    margin-bottom: 30px;
+    display: block;
+    width: 96%;
+}
+textarea {
+    width: 100%;
+    border:none;
+}
+.radio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.radioInput {
+    width: auto;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    font-size: 0.875rem;
+    margin-left: auto;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 9px 12px;
+}
+.colum {
+    flex-direction: column;
+}
